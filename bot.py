@@ -16,7 +16,7 @@ num_rows = 34
 choices = []
 sayings = ['In a ', "future, there is a(n) ", "related to ", ". What is it?"]
 def publictweet():
-    with open('cards.csv') as f:
+    with open('https://raw.githubusercontent.com/GarrettMFlynn/The-Bot-From-The-Future/master/cards.csv') as f:
         reader = csv.reader(f)
         csv_ = list(reader)
         for col in range(3):
