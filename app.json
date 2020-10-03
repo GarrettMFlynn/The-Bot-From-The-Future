@@ -1,0 +1,15 @@
+{
+    "name": "The Bot From The Future",
+    "description": "The server side for Sato.",
+    "image": "heroku/python",
+    "repository": "https://github.com/GarrettMFlynn/The-Bot-From-The-Future",
+    "keywords": ["python", "Twitter" ],
+    "addons": [ "heroku-postgresql" ],
+    "environments": {
+      "test": {
+        "scripts": {
+          "test": "bot.py test"
+        }
+      }
+    }
+  }
